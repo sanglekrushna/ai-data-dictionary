@@ -4,6 +4,6 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "Working"}
+    return {"Hi Myself Krushna": "Working"}
  
 DB_URL = "sqlite:///sample.db"
